@@ -40,14 +40,6 @@ namespace SQLite_EInführung_WPF {
     /// </summary>
     public partial class DataTable : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
-        
-        #line 11 "..\..\DataTable.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.DataGrid Data_Table_DataGrid;
-        
-        #line default
-        #line hidden
-        
         private bool _contentLoaded;
         
         /// <summary>
@@ -76,12 +68,6 @@ namespace SQLite_EInführung_WPF {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
-            switch (connectionId)
-            {
-            case 1:
-            this.Data_Table_DataGrid = ((System.Windows.Controls.DataGrid)(target));
-            return;
-            }
             this._contentLoaded = true;
         }
     }
